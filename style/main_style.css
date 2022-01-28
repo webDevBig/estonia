@@ -72,7 +72,12 @@ body {
     filter: brightness(0) invert(1);
 }
 
-
+/*
+header label
+{
+    display: none;
+}
+*/
 /*header style*/
 header {
     width: 100vw;
