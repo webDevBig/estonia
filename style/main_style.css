@@ -62,10 +62,11 @@ body {
     transform: rotate(45deg);
 }
 
-.tootlip_box.show .tooltip_text{
+.tootlip_box.show .tooltip_text {
     opacity: 1;
     visibility: visible;
 }
+
 .purple_section .tootlip_box .tooltip_icon {
     filter: brightness(0) invert(1);
 }
@@ -337,8 +338,8 @@ header .menu_item:hover {
     justify-content: flex-start;
     align-items: flex-start;
 }
-.purple_section .list
-{
+
+.purple_section .list {
     border-color: white;
 }
 
@@ -487,6 +488,8 @@ footer img {
         opacity: 1;
         visibility: visible;
         flex-wrap: wrap;
+        overflow: scroll;
+        max-height: 100vh;
     }
 
     header .menu {
@@ -566,8 +569,7 @@ footer img {
 }
 
 @media all and (max-width:650px) {
-    header .header_top
-    {
+    header .header_top {
         flex-direction: column;
         align-items: flex-start;
     }
