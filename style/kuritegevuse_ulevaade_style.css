@@ -406,6 +406,17 @@
 .section5 {
     padding: 54px 0 0;
 }
+.section5 p
+{
+    font-size: 18px;
+    color: black;
+}
+.section5 a
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
 
 footer {
     padding: 0px 0 68px;
