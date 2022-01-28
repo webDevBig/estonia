@@ -1,0 +1,614 @@
+.section1 .row_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin: 10px 0 0;
+}
+
+.section1 .text_box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.section1 img.tooltip_icon {
+    width: 58px;
+    height: 58px;
+    margin: 0;
+}
+
+.section1 .row_box .tooltip_text,
+.section1 .row_box .tooltip_text::after {
+    border-color: #6667AB;
+}
+
+.section1 .row_box .tooltip_text {
+    width: 127px;
+    margin: 9px 12px 0 0;
+}
+
+.section1 .grafs_box .graf {
+    width: 100%;
+}
+
+.section1 .graf:last-of-type .graf_img {
+    max-width: 97%;
+}
+
+.section1 .row_item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0 0;
+}
+
+.section1 .row_item:last-of-type {
+    flex-direction: column;
+    margin: 10px 0 0;
+}
+
+.section1 .graf_icon {
+    max-width: 120px;
+}
+
+.section1 .row_item_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: black;
+    margin: 0 0 0 20px;
+}
+
+.section1 .row_item_text .text {
+    font-size: 18px;
+    padding: 0;
+}
+
+.section1 .row_item_text .h1 {
+    color: #6667AB;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 56px;
+}
+
+
+
+.section1 .row_item .graf_note {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.section1 .row_item .graf_img_box img {
+    max-width: 156px;
+    max-height: 116px;
+    margin: 0 12px 0 0;
+}
+
+.section1 .row_item .graf_img_box {
+    width: auto;
+}
+
+.section1 .row_item .title_box {
+    margin: 0 0 20px;
+}
+
+.section2 {
+    padding: 64px 0 30px;
+    color: white;
+}
+
+.section2 .tootlip_box {
+    color: black;
+}
+
+.section2 .graf_img {
+    max-width: 542px;
+}
+
+.section2 .row_box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 35px;
+}
+
+.section2 .clm_box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section2 .clm_box:first-of-type {
+    width: 48.5%;
+}
+
+.section2 .clm_box:last-of-type {
+    padding: 0 0 0 29px;
+}
+
+.section2 .clm_box .row_box {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section2 .clm_box .row_box:first-of-type {
+    margin: 0 0 80px;
+    flex-wrap: nowrap;
+}
+
+.section2 .graf {
+    width: 100%;
+}
+
+.section2 .title {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.section2 .robber_img {
+    max-width: 119px;
+    margin: 0 30px 0 0;
+}
+
+.section2 .items_box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px 0 0;
+}
+
+.section2 .item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 55px 0 0;
+}
+
+.section2 .item:last-of-type {
+    margin: 0;
+    width: 30%;
+}
+
+.section2 .item img {
+    max-width: 127px;
+}
+
+.section2 .item:last-of-type img {
+    max-width: 162px;
+    margin: -10px 0 5px;
+}
+
+.section2 .item p {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    min-height: 63px;
+}
+
+.section2 .list_box .note {
+    font-size: 29px;
+    line-height: 35px;
+}
+
+.section2 .list_box .h1 {
+    font-size: 82px;
+    line-height: 80px;
+    margin: 5px 0 0;
+}
+
+.section2 .graf h1.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    width: 100%;
+    padding: 0 60px 0 0px;
+    text-align: center;
+}
+
+.section2 .row_box_witout_img {
+    padding: 0 0 0 150px;
+}
+
+.section2 .arrows_box {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 0 28px;
+}
+
+.section2 .arrows_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.section2 .arrows_item:first-of-type {
+    margin: 26px 0 15px;
+}
+
+.section2 .arrows_item img {
+    max-width: 116px;
+}
+
+.section2 .arrows_box .clm {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.section3 {
+    padding: 70px 0;
+}
+
+.map_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+    float: left;
+}
+
+.map_box .map_img {
+    max-width: 882px;
+    margin: 0 0 -19px;
+}
+
+.map_box .graf_note {
+    margin: 0;
+}
+
+.section3 .clm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 130px 0 0;
+    position: relative;
+}
+
+.section3 .clm .tootlip_box {
+    top: 0;
+}
+
+.section3 .clm img {
+    max-width: 173px;
+    margin: 0 0 20px;
+}
+
+.section3 .clm .text {
+    color: black;
+    font-size: 18px;
+    line-height: 22px;
+    width: 185px;
+}
+
+.section3 .clm h1 {
+    font-size: 82px;
+    line-height: 78px;
+    color: #6667AB;
+    font-weight: bold;
+    width: 185px;
+}
+
+.section3 .title_box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 46px 0 0;
+}
+
+.section3 .graf_title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.section3 .title_box img {
+    max-width: 59px;
+    margin: 0 0 0 19px;
+}
+
+.section4 {
+    padding: 56px 0;
+    color: white;
+}
+
+.section4 .tooltip_text {
+    color: black;
+}
+
+.section4 .tootlip_box {
+    right: -30px;
+}
+
+.section4 .title_box {
+    width: 100%;
+}
+
+.section4 h1 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.section4 .graf {
+    width: fit-content;
+    padding: 0 30px 0 0;
+}
+
+.section4 .graf .text {
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0 0 5px;
+}
+
+.section4 .text_box {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 15px 0 0;
+}
+
+.section4 .text_box img {
+    max-width: 206px;
+    margin: 0 0 0 40px;
+}
+
+.section4 .grafs_box .graf_img {
+    max-width: 685px;
+}
+
+.section4 .grafs_box:first-of-type .graf_img {
+    max-width: 550px;
+}
+
+.section4 .grafs_box:last-of-type .text_box img {
+    max-width: 311px;
+    margin: 0 0 0 -102px;
+}
+
+.section4 .grafs_box:last-of-type .text_box {
+    padding: 50px 0 0;
+    align-items: flex-start;
+}
+
+.section4 .grafs_box:last-of-type .tootlip_box {
+    right: 0;
+}
+
+.section4 .grafs_box:last-of-type {
+    align-items: flex-start;
+    margin: 70px 0 0;
+}
+
+.section5 {
+    padding: 54px 0 0;
+}
+
+footer {
+    padding: 0px 0 68px;
+}
+
+@media all and (max-width:1200px) {
+    .section2 .row_box {
+        flex-wrap: wrap;
+    }
+
+    .section2 .clm_box:first-of-type {
+        width: 100%;
+    }
+
+    .section4 .grafs_box:first-of-type .graf_img {
+        max-width: 500px;
+    }
+
+    .section4 .text_box img {
+        max-width: 178px;
+        margin: 0 0 0 30px;
+    }
+
+    .section4 .grafs_box .graf_img {
+        max-width: 640px;
+    }
+
+    .section4 .grafs_box:last-of-type .text_box img {
+        max-width: 275px;
+    }
+
+    section .graf_img_box,
+    section .grafs_box,
+    .section2 .row_box {
+        justify-content: center;
+    }
+
+    section .grafs_box {
+        align-items: center;
+    }
+
+    .section2 .graf {
+        align-items: center;
+        width: auto;
+    }
+
+    .section2 .clm_box {
+        margin: 0 0 40px;
+    }
+
+    .section2 .clm_box:last-of-type {
+        margin: 0;
+    }
+
+    .section2 .title {
+        text-align: center;
+    }
+
+    .section2 .graf h1.title {
+        padding: 0;
+    }
+
+    .section2 .clm_box:first-of-type .tootlip_box {
+        right: -30px;
+    }
+
+    .map_box .map_img {
+        max-width: 790px;
+    }
+
+    .section4 .grafs_box {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .section4 .grafs_box:last-of-type {
+        align-items: center;
+    }
+
+    .section2 .clm_box {
+        width: auto;
+    }
+
+    .section2 .clm_box:last-of-type,
+    .section2 .arrows_box {
+        padding: 0;
+    }
+}
+
+
+@media all and (max-width:1024px) {
+    .section3 .clm {
+        margin: 40px auto 0;
+        padding: 65px 0 0;
+    }
+
+    .section4 .graf {
+        margin: 0 0 40px;
+        padding: 0;
+    }
+
+}
+
+@media all and (max-width:900px) {
+    .section1 .row_box {
+        flex-wrap: wrap;
+    }
+
+    .section1 .row_item {
+        width: 100%;
+    }
+
+    .map_box .map_img {
+        max-width: 95%;
+    }
+
+    .section4 .grafs_box:last-of-type .tootlip_box {
+        right: -30px;
+    }
+
+    section .graf {
+        justify-content: flex-start;
+    }
+}
+
+@media all and (max-width:650px) {
+
+    .section2 .graf_img,
+    .section4 .grafs_box:first-of-type .graf_img,
+    .section4 .grafs_box .graf_img {
+        max-width: 90%;
+    }
+
+    .section4 .tootlip_box,
+    .section2 .clm_box:first-of-type .tootlip_box {
+        right: 0;
+    }
+
+    .section1 .tootlip_box {
+        display: none;
+    }
+
+    .section1 .row_item,
+    .section2 .clm_box .row_box,
+    .section2 .items_box,
+    .section4 .graf,
+    .section4 .text_box {
+        flex-direction: column;
+    }
+
+    .section1 .row_item:last-of-type {
+        margin: 40px 0 0;
+    }
+    .section1 .text_box
+    {
+        width: 100%;
+    }
+
+    .section2 .item {
+        width: auto;
+        margin: 0 0 40px;
+    }
+
+    .section2 .item:last-of-type {
+        width: auto;
+    }
+
+    .section2 .row_box_witout_img {
+        padding: 0;
+    }
+
+    .section4 .text_box {
+        padding: 0;
+        align-items: center;
+    }
+
+    .section4 .text_box img,
+    .section4 .grafs_box:last-of-type .text_box img {
+        margin: 40px 0 0;
+    }
+
+    .section5 p {
+        word-wrap: break-word;
+    }
+
+
+}
+
+@media all and (max-width:375px) {
+    .section1 .row_item .graf_img_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section4 .grafs_box:last-of-type .tootlip_box
+    {
+        right: 0;
+    }
+    .section2 .list_box .h1 {
+    font-size: 65px;
+}
+    .section2 .clm_box:first-of-type .tootlip_box
+    {
+        top: -30px;
+    }
+
+}
