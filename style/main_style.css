@@ -81,10 +81,10 @@ body {
 }
 
 .section .row_box,
-.section .clm {
+.section .clm_box {
     display: flex;
 }
-.section .clm
+.section .clm_box
 {
     flex-direction: column;
 }
