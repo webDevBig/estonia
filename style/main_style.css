@@ -68,8 +68,25 @@ body {
     visibility: visible;
 }
 
+.tootlip_box ul {
+    padding: 0 0 0 18px;
+}
+
 .purple_section .tootlip_box .tooltip_icon {
     filter: brightness(0) invert(1);
+}
+.purple_section .tootlip_box
+{
+    color: black;
+}
+
+.section .row_box,
+.section .clm {
+    display: flex;
+}
+.section .clm
+{
+    flex-direction: column;
 }
 
 /*
