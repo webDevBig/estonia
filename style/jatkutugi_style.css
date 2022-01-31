@@ -1,4 +1,4 @@
-.section1 .title {
+.section1 .grafs_box .title {
     color: #6667AB;
     font-size: 24px;
     font-weight: bold;
@@ -62,7 +62,7 @@
 .section2 .title {
     font-size: 24px;
     font-weight: bold;
-    margin: 0 44px 0 26px;
+    margin: 0 0 0 26px;
     color: white;
 }
 
@@ -72,6 +72,13 @@
     margin: 40px 0 0;
 }
 
+.section2 .row_box div {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 44px 0 0;
+}
+
 .section2 .number_text {
     font-size: 79px;
     font-weight: bold;
@@ -79,11 +86,60 @@
 }
 
 .section3 {
-    padding: 71px 0;
+    padding: 66px 0;
 }
-.section3 .graf_img
-{
+
+.section3 .grafs_box {
+    align-items: center;
+}
+
+.section3 .graf_img {
     max-width: 549px;
+}
+
+.section3 .item_box {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 59px;
+}
+
+.section3 .item_box:last-of-type {
+    margin: 0;
+}
+
+.section3 .text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section3 .text_box .text {
+    font-size: 21.5px;
+    line-height: 27px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.section3 .text_box .text span {
+    color: #6667AB;
+    font-size: 71px;
+    font-weight: bold;
+    line-height: 71px;
+    margin: 0 15px 0 0;
+}
+
+.section3 .item_img {
+    max-width: 116px;
+    margin: 0 42px 0 0;
+}
+
+.section3 .item_img2 {
+    max-width: 147px;
+    margin: 0 20px 0 0;
 }
 
 
@@ -163,28 +219,101 @@
 
 @media all and (max-width:1200px) {
 
-    .section2 .graf:last-of-type .graf_note {
-        margin: 20px 0;
+
+
+    .section2 .row_box {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width:1024px) {
+
+
+    .section3 .grafs_box {
+        flex-direction: column;
+    }
+
+    .section3 .graf {
+        width: auto;
+        margin: 40px 0 0;
     }
 
     .section4 .grafs_box {
-        align-items: flex-end;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .section4 .graf:last-of-type .graf_note {
-        margin: 20px 0;
+    .section4 .clm_box {
+        margin: 40px 0 0;
+        width: auto;
+        max-width: 70%;
+    }
+
+    .section4 .graf {
+        width: auto;
     }
 }
 
 @media all and (max-width:900px) {
-    .section2 .graf:last-of-type {
+
+    .section1 .grafs_box {
         align-items: center;
     }
 
+    .section2 .row_box div {
+        margin: 0;
+        min-width: 365px;
+    }
 
-    .section4 .graf_note br {
-        display: none;
+    .section2 .row_box {
+        flex-direction: column;
     }
 }
 
-@media all and (max-width:650px) {}
+@media all and (max-width:650px) {
+    .section3 .graf_img {
+        max-width: 100%;
+    }
+
+    .section4 .row_box,
+    .section1 .row_box {
+        flex-wrap: wrap;
+    }
+
+    .section1 .big_text {
+        font-size: 50px;
+    }
+
+    .section1 .item_box {
+        width: 100%;
+        align-items: center;
+    }
+
+    .section1 .item_box:first-of-type {
+        margin: 24px 0 0;
+    }
+
+    .section2 .item_img {
+        max-width: 60px;
+    }
+
+    .section2 .number_text {
+        font-size: 55px;
+    }
+
+    .section2 .title {
+        font-size: 18px;
+    }
+}
+@media all and (max-width:400px)
+{
+    .section3 .item_box
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2 .row_box div {
+    margin: 0;
+    min-width: 90%;
+}
+}
