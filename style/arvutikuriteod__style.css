@@ -1,3 +1,8 @@
+.section1 .grafs_box {
+    align-items: flex-start;
+    margin: 75px 0 0;
+}
+
 .section1 .graf:first-of-type .graf_img {
     max-width: 643px;
 }
@@ -61,9 +66,10 @@
     font-weight: 400;
 }
 
-.section2 h1 {
+.section2 .text_title {
     font-size: 82px;
     line-height: 80px;
+    font-weight: bold;
 }
 
 .section2 .row_box {
@@ -165,10 +171,11 @@
     line-height: 28px;
 }
 
-.section3 h1 {
+.section3 .text_title {
     color: #6667AB;
     font-size: 82px;
     line-height: 80px;
+    font-weight: bold;
 }
 
 .section4 {
@@ -183,7 +190,7 @@
     color: white;
 }
 
-.section4 h1 {
+.section4 .text_title {
     font-size: 36px;
     font-weight: bold;
 }
@@ -235,7 +242,7 @@
     color: black;
 }
 
-.section5 h1 {
+.section5 .text_title {
     font-size: 36px;
     font-weight: bold;
     color: #6667AB;
@@ -345,8 +352,15 @@
     margin: 55px 0 0;
 }
 
-.section6 h1 {
+.section6 .text_title {
     font-size: 95px;
+    font-weight: bold;
+}
+
+.section .graf_note a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 @media all and (max-width:1200px) {
@@ -500,8 +514,8 @@
     .section3 .tootlip_box {
         top: -40px;
     }
-    .section3 .text_box p
-    {
+
+    .section3 .text_box p {
         text-align: center;
     }
 }

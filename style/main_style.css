@@ -525,22 +525,6 @@ footer img {
     }
 
 
-    /*Hide checkbox*/
-/*
-    .mobile-menu input[type=checkbox] {
-        height: 15px;
-        position: absolute;
-        display: block;
-        width: 20px;
-        opacity: 0;
-        z-index: 20;
-        right: 5%;
-        top: 15px;
-        cursor: pointer;
-    }
-*/
-
-
     /*Show menu when invisible checkbox is checked*/
     .mobile-menu.show #menu {
         transform: translateY(43px);

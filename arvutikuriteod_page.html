@@ -23,7 +23,7 @@
                     <span></span>
                 </div>
             </div>
-           
+
             <div class="all_menu_list purple_section" id="menu">
                 <ul class="menu_list">
                     <li><a href="kuritegevuse_ülevaade_page.html" class="menu_item">Kuritegevuse ülevaade</a></li>
@@ -60,7 +60,7 @@
     <div class="section1 section">
         <div class="content">
             <div class="content_header">
-                <h1 class="title">Arvutikuriteod</h1>
+                <p class="title">Arvutikuriteod</p>
                 <a href="xlsx/Arvutikuriteod%202021.xlsx" download class="dowload_link">Laadi alla .xlsx</a>
             </div>
             <p class="text">Arvutikuritegude (küberkuritegude) arv on endiselt tõusuteel ja seda ennekõike arvutikelmuste puhul, mida registreeriti 63% rohkem kui aasta varem. Neist suure osa (37%) moodustavad petukõned. Võrreldes 10 aasta taguse ajaga on arvutikuritegude arv kasvanud kolm korda. Märgata on üha enam krüptokontode vastaseid rünnakuid ja lunaraha nõudmist erinevate serverite või kontode dekrüpteerimise eest. Digitaalse perevägivalla kõrval, kus teineteise kontosid hõivatakse, on näha ka digitaalset kiusu ning tööalast kättemaksu, kus postitatakse videosid kaaperdatud kontole või töösuhte lõppedes ei anta näiteks Facebooki konto paroole endisele partnerile vms.</p>
@@ -107,7 +107,7 @@
                     <img alt="" src="img/arvutikuriteod_img/section2_img.png">
                     <div class="img_title_box">
                         <p class="title">moodustavad</p>
-                        <h1>3%</h1>
+                        <p class="text_title">3%</p>
                         <p class="title">kõikidest arvutikuritegudest</p>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                 <img alt="" src="img/arvutikuriteod_img/section3_item5.png" class="item5">
                 <div class="text_box">
                     <p>Lunaraha nõuti</p>
-                    <h1>4%</h1>
+                    <p class="text_title">4%</p>
                     <p>arvutiandmete ja -süsteemi <br>
                         kuritegude puhul.</p>
                 </div>
@@ -171,7 +171,7 @@
     </div>
     <div class="section4 section purple_section">
         <div class="content">
-            <h1>Rahaline kahju</h1>
+            <p class="text_title">Rahaline kahju</p>
             <div class="items_box">
                 <div class="item">
                     <img alt="" src="img/arvutikuriteod_img/section4_item1.png">
@@ -208,7 +208,7 @@
 
     <div class="section5 section">
         <div class="content">
-            <h1>Arvutikuriteo ohvri profiil </h1>
+            <p class="text_title">Arvutikuriteo ohvri profiil </p>
             <div class="row_box">
                 <div class="clm_box">
                     <div class="item">
@@ -283,9 +283,10 @@
                         <div class="img_box">
                             <img alt="" src="img/arvutikuriteod_img/section5_item7.png" class="item7_img">
                         </div>
-                        <p class="text"><span>4% kontode hõivamistest <br>
-                                olid seotud krüptokontode <br>
-                                või rahakottidega.</span></p>
+                        <p class="text"><span>3%</span> juhtudel oli tegemist <br>
+                            õpetajate <span>ekooli või stuudiumi</span>
+                            kontode ülevõtmisega <br>
+                            õpilaste poolt. </p>
                     </div>
                 </div>
             </div>
@@ -296,11 +297,11 @@
         <div class="content">
 
             <div class="row_box">
-                    <div class="graf">
-                        <div class="graf_img_box">
-                            <img alt="" src="img/arvutikuriteod_img/section6_graf1.png" class="graf_img">
-                        </div>
+                <div class="graf">
+                    <div class="graf_img_box">
+                        <img alt="" src="img/arvutikuriteod_img/section6_graf1.png" class="graf_img">
                     </div>
+                </div>
                 <div class="clm_box">
                     <div class="tootlip_box">
                         <i class="tooltip_icon"></i>
@@ -313,7 +314,7 @@
                         <img alt="Arvutikuriteod detailsemalt" src="img/graf_icon_white.png">
                     </div>
                     <img alt="49% inimestest puutus viimase aasta jooksul kokku mingit sorti õngitsemisega." src="img/arvutikuriteod_img/section6_item1.png" class="img">
-                    <h1>49%</h1>
+                    <p class="text_title">49%</p>
                     <p class="text">inimestest puutus <br>
                         viimase aasta jooksul <br>
                         kokku mingit sorti <br>
@@ -322,7 +323,7 @@
                 </div>
             </div>
             <p class="graf_note">Inimeste kokkupuude arvutiandmete ja -süsteemi kuritegudega küsitluse andmetel (%) Küsimus: „Kas viimase aasta jooksul on juhtunud, et internetis on /…/?“
-                (Vastajad on üle 15 a vanused Eesti elanikud. Ohvriuuring, 2021. https://www.kriminaalpoliitika.ee/et/kuriteoohvrite-uuring-ovu-2021)
+                (Vastajad on üle 15 a vanused Eesti elanikud. Ohvriuuring, 2021. <a href="https://www.kriminaalpoliitika.ee/et/kuriteoohvrite-uuring-ovu-2021" target="_blank">https://www.kriminaalpoliitika.ee/et/kuriteoohvrite-uuring-ovu-2021)</a>
             </p>
 
         </div>
@@ -348,7 +349,7 @@
         $(".tooltip_icon").click(function() {
             $(this).parents('.tootlip_box').toggleClass('show')
         })
-         $('.mobile_menu_icon').click(function(){
+        $('.mobile_menu_icon').click(function() {
             $(this).parents('.mobile-menu').toggleClass('show')
         })
 

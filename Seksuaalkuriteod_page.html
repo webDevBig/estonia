@@ -23,7 +23,7 @@
                     <span></span>
                 </div>
             </div>
-           
+
             <div class="all_menu_list purple_section" id="menu">
                 <ul class="menu_list">
                     <li><a href="kuritegevuse_ülevaade_page.html" class="menu_item">Kuritegevuse ülevaade</a></li>
@@ -59,7 +59,7 @@
     <div class="section1 section">
         <div class="content">
             <div class="content_header">
-                <h1 class="title">Seksuaalkuriteod</h1>
+                <p class="title">Seksuaalkuriteod</p>
                 <a href="xlsx/Seksuaalkuriteod_2021.xlsx" download class="dowload_link">Laadi alla .xlsx</a>
             </div>
             <p class="text">Registreeritud seksuaalkuritegude* arv kasvas 33% (+186). See on tingitud peamiselt laste vastu toime pandud kontaktsete (+81) ja mittekontaktsete (+103) kuritegude registreerimise kasvust. Alaealise kannatanuga seksuaalkuritegudest on kõige enam registreeritud vägistamisjuhtumeid, tahtevastase sugulise iseloomuga tegusid ning suguühet või muu sugulise iseloomuga tegusid lapseealisega. Mittekontaktsetest seksuaalkuritegudest on kõige rohkem registreeritud lapsporno valmistamise ja selle võimaldamise kuritegusid; peaaegu sama palju ka lapseealise seksuaalse ahvatlemise kuritegusid. Neid kõiki registreeriti 2021. aastal rohkem kui 2020. aastal. </p>
@@ -166,8 +166,8 @@
         <div class="content">
             <div class="row_box">
                 <div class="row_item_text">
-                    <h1 class="h1">Alaealise kannatanuga kontaktseid <br>
-                        seksuaalkuritegusid 303, sh: </h1>
+                    <p class="text_title">Alaealise kannatanuga kontaktseid <br>
+                        seksuaalkuritegusid 303, sh: </p>
                     <div class="list">
                         <p class="note"><span>102</span> vägistamist (KarS § 141)</p>
                         <p class="note"><span>67</span> tahtevastast sugulise iseloomuga <br>
@@ -182,6 +182,8 @@
                             tegu lapseealisega (KarS § 145)</p>
                         <p class="note"><span>15</span> alaealiselt seksi ostmist (KarS § 145¹)</p>
                     </div>
+
+
                 </div>
                 <div class="clm_box">
                     <p class="title_big">Alaealise kannatanuga kontaktsete <br>
@@ -199,31 +201,63 @@
                                 ja <span>16% poisid</span></p>
                         </div>
                     </div>
-                    <div class="clm_box">
-                        <p class="title">Toimepanijatest: </p>
-                        <div class="row_box items_all_box">
-                            <div class="item_box">
-                                <div class="circle_box">
-                                    <p>47%</p>
-                                </div>
-                                <p class="text">pereliige <br>
-                                    või sugulane</p>
-                            </div>
-                            <div class="item_box">
-                                <div class="circle_box">
-                                    <p>42%</p>
-                                </div>
-                                <p class="text">muu tuttav*</p>
-                            </div>
-                            <div class="item_box">
-                                <div class="circle_box">
-                                    <p>10%</p>
-                                </div>
-                                <p class="text">võõras</p>
-                            </div>
-                        </div>
+
+                </div>
+            </div>
+            <div class="row_box row_box_toimepanijatest ">
+                <div class="clm_box">
+                    <p class="text_title">Pereliikmetest <br>
+                        või sugulastest: </p>
+
+                    <div class="list">
+                        <p class="note"><span>66%</span> (endine) (kasu)-isa või ema elukaaslane</p>
+                        <p class="note"><span>13%</span> (kasu)vanaisa</p>
+                        <p class="note"><span>4%</span> (kasu)vend</p>
+                        <p class="note"><span>17%</span> muu**</p>
+
                     </div>
                 </div>
+
+                <div class="clm_box">
+                    <p class="title">Toimepanijatest: </p>
+                    <div class="row_box items_all_box">
+                        <div class="item_box">
+                            <div class="circle_box">
+                                <p>47%</p>
+                            </div>
+                            <p class="text">pereliige <br>
+                                või sugulane</p>
+                        </div>
+                        <div class="item_box">
+                            <div class="circle_box">
+                                <p>42%</p>
+                            </div>
+                            <p class="text">muu tuttav*</p>
+                        </div>
+                        <div class="item_box">
+                            <div class="circle_box">
+                                <p>10%</p>
+                            </div>
+                            <p class="text">võõras</p>
+                        </div>
+                    </div>
+                    <div class="note_box">
+                        <p class="note"><span>*</span> Muuks tuttavaks oli (kasu-) ema või (kasu-)isa sõber, <br>
+                            sõbranna elukaaslane, õpetaja, internetituttav, <br>
+                            ea- või koolikaaslane või treener</p>
+                        <p class="note"><span>**</span> Muu pereliige või sugulane oli näiteks onu, <br>
+                            õemees, vanaema õepoeg jt.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row_box row_box_footer">
+                <p class="text">Võõra poolt toimepandud alaealise kannatanuga <br>
+                    kontaktsete seksuaalkuritegude arv kasvas võrreldes 2020. aastaga</p>
+                <img alt="" src="img/Seksuaalkuriteod_img/section4_item2.png">
+                <div class="circle_box">7%</div>
+                <p class="vs_text">vs.</p>
+                <div class="circle_box">10%</div>
             </div>
         </div>
     </div>
@@ -280,7 +314,7 @@
         $(".tooltip_icon").click(function() {
             $(this).parents('.tootlip_box').toggleClass('show')
         })
-         $('.mobile_menu_icon').click(function(){
+        $('.mobile_menu_icon').click(function() {
             $(this).parents('.mobile-menu').toggleClass('show')
         })
 

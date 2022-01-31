@@ -6,6 +6,34 @@
     margin: 10px 0 0;
 }
 
+.section1 .tootlip_box a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section1 .icon_box {
+    display: flex;
+
+}
+
+.section1 .icon_box .tooltip_text {
+    opacity: 1;
+    visibility: visible;
+}
+
+.section1 .icon_box .tooltip_text::after {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-top: 1px solid #E6E7E6;
+    border-right: 1px solid #E6E7E6;
+    right: -5px;
+    top: 15px;
+    transform: rotate(45deg);
+}
+
 .section1 .text_box {
     display: flex;
     flex-direction: column;
@@ -67,7 +95,7 @@
     padding: 0;
 }
 
-.section1 .row_item_text .h1 {
+.section1 .row_item_text .title_text {
     color: #6667AB;
     font-size: 36px;
     font-weight: bold;
@@ -196,17 +224,24 @@
 }
 
 .section2 .list_box .note {
-    font-size: 29px;
-    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+/*    line-height: 35px;*/
+}
+.section2 .list_box .note span
+{
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.section2 .list_box .h1 {
+.section2 .list_box .title_text {
     font-size: 82px;
     line-height: 80px;
     margin: 5px 0 0;
+    font-weight: bold;
 }
 
-.section2 .graf h1.title {
+.section2 .graf .title_text {
     font-size: 36px;
     font-weight: bold;
     margin: 0 0 15px;
@@ -298,7 +333,7 @@
     width: 185px;
 }
 
-.section3 .clm h1 {
+.section3 .clm .title_text {
     font-size: 82px;
     line-height: 78px;
     color: #6667AB;
@@ -342,7 +377,7 @@
     width: 100%;
 }
 
-.section4 h1 {
+.section4 .title_text {
     font-size: 36px;
     line-height: 36px;
     font-weight: bold;
@@ -402,13 +437,13 @@
 .section5 {
     padding: 54px 0 0;
 }
-.section5 p
-{
+
+.section5 p {
     font-size: 18px;
     color: black;
 }
-.section5 a
-{
+
+.section5 a {
     cursor: pointer;
     text-decoration: none;
     color: black;
