@@ -23,9 +23,7 @@
                     <span></span>
                 </div>
             </div>
-            <label for="show-menu"></label>
-            <input type="checkbox" id="show-menu">
-
+           
             <div class="all_menu_list purple_section" id="menu">
                 <ul class="menu_list">
                     <li><a href="kuritegevuse_ülevaade_page.html" class="menu_item">Kuritegevuse ülevaade</a></li>
@@ -185,6 +183,47 @@
                         <p class="note"><span>15</span> alaealiselt seksi ostmist (KarS § 145¹)</p>
                     </div>
                 </div>
+                <div class="clm_box">
+                    <p class="title_big">Alaealise kannatanuga kontaktsete <br>
+                        seksuaalkuritegude puhul </p>
+                    <div class="row_box">
+                        <div class="item_box">
+                            <p class="number_text">11 <span>a</span></p>
+                            <p class="text">keskmine vanus <br>
+                                (toimepanemise <br>
+                                ajal/alguses)</p>
+                        </div>
+                        <div class="item_box">
+                            <img alt="" src="img/Seksuaalkuriteod_img/section4_item1.png">
+                            <p class="text">Sooline jaotus <span>84% tüdrukud </span> <br>
+                                ja <span>16% poisid</span></p>
+                        </div>
+                    </div>
+                    <div class="clm_box">
+                        <p class="title">Toimepanijatest: </p>
+                        <div class="row_box items_all_box">
+                            <div class="item_box">
+                                <div class="circle_box">
+                                    <p>47%</p>
+                                </div>
+                                <p class="text">pereliige <br>
+                                    või sugulane</p>
+                            </div>
+                            <div class="item_box">
+                                <div class="circle_box">
+                                    <p>42%</p>
+                                </div>
+                                <p class="text">muu tuttav*</p>
+                            </div>
+                            <div class="item_box">
+                                <div class="circle_box">
+                                    <p>10%</p>
+                                </div>
+                                <p class="text">võõras</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -240,6 +279,9 @@
 
         $(".tooltip_icon").click(function() {
             $(this).parents('.tootlip_box').toggleClass('show')
+        })
+         $('.mobile_menu_icon').click(function(){
+            $(this).parents('.mobile-menu').toggleClass('show')
         })
 
     </script>

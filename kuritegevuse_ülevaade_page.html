@@ -23,9 +23,7 @@
                     <span></span>
                 </div>
             </div>
-            <label for="show-menu"></label>
-            <input type="checkbox" id="show-menu">
-
+           
             <div class="all_menu_list purple_section" id="menu">
                 <ul class="menu_list">
                     <li><a href="kuritegevuse_ülevaade_page.html" class="menu_item active">Kuritegevuse ülevaade</a></li>
@@ -406,6 +404,9 @@
         
         $(".tooltip_icon").click(function() {
             $(this).parents('.tootlip_box').toggleClass('show')
+        })
+         $('.mobile_menu_icon').click(function(){
+            $(this).parents('.mobile-menu').toggleClass('show')
         })
        
 

@@ -526,6 +526,7 @@ footer img {
 
 
     /*Hide checkbox*/
+/*
     .mobile-menu input[type=checkbox] {
         height: 15px;
         position: absolute;
@@ -537,10 +538,11 @@ footer img {
         top: 15px;
         cursor: pointer;
     }
+*/
 
 
     /*Show menu when invisible checkbox is checked*/
-    .mobile-menu input[type=checkbox]:checked ~ #menu {
+    .mobile-menu.show #menu {
         transform: translateY(43px);
     }
 
