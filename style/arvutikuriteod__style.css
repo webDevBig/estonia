@@ -256,7 +256,7 @@
 
 .section5 .clm_box {
     width: 49%;
-    justify-content: space-between;
+/*    justify-content: space-between;*/
     align-items: flex-start;
 }
 

@@ -9,6 +9,11 @@ body {
     cursor: default;
     overflow-x: hidden;
 }
+.link
+{
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .purple_section {
     background-color: #6667AB;

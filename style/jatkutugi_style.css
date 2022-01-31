@@ -1,0 +1,190 @@
+.section1 .title {
+    color: #6667AB;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section1 .big_text {
+    font-size: 79px;
+    color: #6667AB;
+    font-weight: bold;
+}
+
+.section1 .item_img {
+    max-width: 120px;
+}
+
+.section1 .item_img2 {
+    max-width: 110px;
+}
+
+.section1 .item_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 24px 0 0;
+}
+
+.section1 .item_box .text {
+    padding: 0;
+}
+
+.section1 .item_box:first-of-type {
+    margin: 24px 78px 0 0;
+}
+
+
+
+.section2 {
+    padding: 62px 0;
+    color: white;
+}
+
+.section2 .graf_title {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 42px;
+    font-weight: 400;
+}
+
+
+.section2 .graf .graf_img {
+    max-width: 542px;
+    width: 100%;
+}
+
+.section2 .item_img {
+    max-width: 79px;
+}
+
+.section2 .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 44px 0 26px;
+    color: white;
+}
+
+.section2 .row_box {
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 0;
+}
+
+.section2 .number_text {
+    font-size: 79px;
+    font-weight: bold;
+
+}
+
+.section3 {
+    padding: 71px 0;
+}
+.section3 .graf_img
+{
+    max-width: 549px;
+}
+
+
+
+.section4 {
+    padding: 65px 0;
+    color: white;
+}
+
+.section4 .clm_box {
+    max-width: 50%;
+}
+
+
+.section4 .graf .graf_img {
+    max-width: 455px;
+    width: 100%;
+    margin: 0 0 15px;
+}
+
+
+.section4 .grafs_box {
+    align-items: flex-start;
+}
+
+.section4 .text {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 0 0 17px;
+}
+
+.section4 .text_title {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 45px 0 0;
+}
+
+.section4 .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 0
+}
+
+.section4 .item .text {
+    margin: 0;
+}
+
+.section4 .item:last-of-type {
+    margin: 0;
+}
+
+.section4 .circle_box {
+    border-radius: 50%;
+    width: 79px;
+    height: 79px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 29.64px;
+    line-height: 38px;
+    font-weight: bold;
+    margin: 10px 0 7px;
+}
+
+.section4 .circle_box_white {
+    background-color: white;
+    color: #6667AB;
+}
+
+
+
+@media all and (max-width:1200px) {
+
+    .section2 .graf:last-of-type .graf_note {
+        margin: 20px 0;
+    }
+
+    .section4 .grafs_box {
+        align-items: flex-end;
+    }
+
+    .section4 .graf:last-of-type .graf_note {
+        margin: 20px 0;
+    }
+}
+
+@media all and (max-width:900px) {
+    .section2 .graf:last-of-type {
+        align-items: center;
+    }
+
+
+    .section4 .graf_note br {
+        display: none;
+    }
+}
+
+@media all and (max-width:650px) {}
