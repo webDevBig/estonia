@@ -256,14 +256,12 @@
 
 .section5 .clm_box {
     width: 49%;
-/*    justify-content: space-between;*/
     align-items: flex-start;
 }
 
 .section5 .item {
     width: 100%;
     display: flex;
-    /*    justify-content: space-between;*/
     align-items: center;
 }
 
@@ -345,6 +343,8 @@
     font-size: 18px;
     line-height: 25px;
     margin: 100px 0 0;
+    position: relative;
+    z-index: 1;
 }
 
 .section6 .img {

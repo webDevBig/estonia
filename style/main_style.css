@@ -26,6 +26,10 @@ body {
     justify-content: center;
     align-items: flex-start;
     right: 0;
+    z-index: 1;
+}
+.tootlip_box.show 
+{
     z-index: 10;
 }
 
@@ -321,6 +325,8 @@ header .menu_item:hover {
     justify-content: flex-end;
     align-items: center;
     margin: 0 0 50px;
+    position: relative;
+    z-index: 1;
 }
 
 .section1 .title_box img {
