@@ -384,24 +384,7 @@ süüdi mõistetud vangide koguarvust (aasta lõpul)" src="img/kriminaalhooldus_
 
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script>
-        $(document).click(function(event) {
-            //if you click on anything except the modal itself or the "open modal" link, close the modal
-            if (!$(event.target).closest(" .tootlip_text, .tooltip_icon").length) {
-                $("body").find(".tootlip_box").removeClass("show");
-
-
-            }
-        });
-
-        $(".tooltip_icon").click(function() {
-            $(this).parents('.tootlip_box').toggleClass('show')
-        })
-        $('.mobile_menu_icon').click(function() {
-            $(this).parents('.mobile-menu').toggleClass('show')
-        })
-
-    </script>
+ <script src="script.js"> </script>
 
 </body>
 
