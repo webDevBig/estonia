@@ -173,13 +173,13 @@
 
 
 .section3 .item_img {
-    max-width: 128px;
-    margin: 0 40px 0 0;
+    max-width: 205px;
+    margin: 0 -65px 0 0;
 }
 
 .section3 .clm_box {
     min-height: 413px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
