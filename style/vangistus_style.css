@@ -304,6 +304,14 @@
     margin: 0 0 32px;
 }
 
+.section5 .grafs_box {
+    justify-content: flex-end;
+}
+
+.section5 .clm_box {
+    width: 44%;
+}
+
 .section6 {
     padding: 63px 0;
     color: white;
@@ -390,6 +398,11 @@
 
 .section7 .grafs_box {
     align-items: center;
+    justify-content: flex-end;
+}
+
+.section7 .clm_box {
+    width: 47%;
 }
 
 .section8 {
@@ -713,6 +726,16 @@
     .section12 .graf .graf_img {
         max-width: 100%;
     }
+
+    .section5 .clm_box,
+    .section7 .clm_box {
+        width: auto;
+    }
+
+    .section5 .grafs_box,
+    .section7 .grafs_box {
+        justify-content: space-between;
+    }
 }
 
 @media all and (max-width:1024px) {
@@ -901,7 +924,7 @@
         width: 15px;
     }
 
-    .section11  .list .note:last-of-type {
+    .section11 .list .note:last-of-type {
         margin: 0 0 -11.5px;
     }
 
@@ -913,17 +936,21 @@
     .section12 .img_box {
         margin: 0 0 30px;
     }
+
     .section12 .text,
-    .section12 .title_text
-    {
+    .section12 .title_text {
         text-align: center;
     }
 }
-@media all and (max-width: 375px)
-{.section11 .list .note:last-of-type {
-    margin: 0 0 -12px;
-}}
-@media all and (max-width: 360px)
-{.section11 .list .note:last-of-type {
-    margin: 0 0 -11.5px;
-}}
+
+@media all and (max-width: 375px) {
+    .section11 .list .note:last-of-type {
+        margin: 0 0 -12px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .section11 .list .note:last-of-type {
+        margin: 0 0 -11.5px;
+    }
+}
