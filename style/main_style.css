@@ -98,12 +98,6 @@ body {
     flex-direction: column;
 }
 
-/*
-header label
-{
-    display: none;
-}
-*/
 /*header style*/
 header {
     width: 100vw;
@@ -170,7 +164,7 @@ header .menu_list:nth-of-type(1) {
 
 header .menu_list:nth-of-type(3),
 header .menu_list:nth-of-type(4) {
-    width: 170px;
+    width: 200px;
 }
 
 
