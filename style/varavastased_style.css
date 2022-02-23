@@ -377,6 +377,12 @@
     top: 0;
 }
 
+.section4 .text {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
 .section5 {
     padding: 71px 0 53px;
 }
@@ -644,6 +650,14 @@
         text-align: center;
     }
 
+    .section4 .text br {
+        display: none;
+    }
+
+    .section4 .box:last-of-type {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media all and (max-width:600px) {
@@ -772,6 +786,9 @@
 
     .section4 .text {
         text-align: center;
+    }
+    .section4 .text br {
+        display:block;
     }
 
     .section5 .row_box {
