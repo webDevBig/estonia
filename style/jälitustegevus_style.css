@@ -1,0 +1,63 @@
+.section1 .text {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.section1 .text span {
+    font-weight: bold;
+}
+
+.section1 .row_box {
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.section1 .box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section1 .text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section2 {
+    color: white;
+}
+
+.section2 .content {
+    flex-direction: column;
+}
+
+.section2 .row_box {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section2 .text {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.section2 .text span {
+    font-weight: bold;
+}
+
+.section2 table {
+    border-collapse: collapse;
+}
+
+.section2 table td {
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.section2 table td:first-of-type {
+    text-align: left;
+}
