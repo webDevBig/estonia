@@ -70,6 +70,7 @@
 
 .section1 .graf:last-of-type .graf_img {
     max-width: 100%;
+    max-height: 420px;
 }
 
 .section1 li {
@@ -182,6 +183,7 @@
 
 .section3 .graf_img {
     max-width: 530px;
+    max-height: 564px;
 }
 
 .section3 .content {
@@ -195,6 +197,7 @@
 
 .section4 .graf_img {
     max-width: 561px;
+    max-height: 436px;
 }
 
 .section4 .title {
@@ -249,6 +252,7 @@
 
 .section5 .graf_img {
     max-width: 503px;
+    max-height: 298px;
 }
 
 .section5 .title {
@@ -342,6 +346,7 @@
 
 .section6 .graf_img {
     max-width: 521px;
+    max-height: 373px;
 }
 
 .section7 {
@@ -350,6 +355,7 @@
 
 .section7 .graf_img {
     max-width: 545px;
+    max-height: 312px;
 }
 
 .section7 .title {
@@ -416,6 +422,7 @@
 
 .section8 .graf_img {
     max-width: 539px;
+    max-height: 622px;
 }
 
 .section8 .title {
@@ -470,6 +477,7 @@
 
 .section9 .graf_img {
     max-width: 565px;
+    max-height: 492px;
 }
 
 .section9 .title {
@@ -530,6 +538,7 @@
 
 .section10 .graf_img {
     max-width: 569px;
+    max-height: 471px;
 }
 
 .section10 .title {
@@ -640,6 +649,7 @@
 
 .section11 .graf .graf_img {
     max-width: 573px;
+    max-height: 457px;
 }
 
 .section11 .note {
@@ -654,6 +664,7 @@
 
 .section12 .graf_img {
     max-width: 561px;
+    max-height: 905px;
 }
 
 .section12 .text {

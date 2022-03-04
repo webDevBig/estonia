@@ -9,14 +9,18 @@ body {
     cursor: default;
     overflow-x: hidden;
 }
-.link
-{
+
+.link {
     cursor: pointer;
     text-decoration: none;
 }
 
 .purple_section {
     background-color: #6667AB;
+}
+
+.section .graf_img {
+    object-fit: contain;
 }
 
 .tootlip_box {
@@ -28,8 +32,8 @@ body {
     right: 0;
     z-index: 1;
 }
-.tootlip_box.show 
-{
+
+.tootlip_box.show {
     z-index: 10;
 }
 
@@ -84,8 +88,8 @@ body {
 .purple_section .tootlip_box .tooltip_icon {
     filter: brightness(0) invert(1);
 }
-.purple_section .tootlip_box
-{
+
+.purple_section .tootlip_box {
     color: black;
 }
 
@@ -93,8 +97,8 @@ body {
 .section .clm_box {
     display: flex;
 }
-.section .clm_box
-{
+
+.section .clm_box {
     flex-direction: column;
 }
 
@@ -308,11 +312,15 @@ header .menu_item:hover {
 .section1 .graf:first-of-type .graf_img {
     width: 100%;
     max-width: 545px;
+    object-fit: contain;
+    max-height: 368px;
 }
 
 .section1 .graf:last-of-type .graf_img {
     width: 100%;
     max-width: 475px;
+    object-fit: contain;
+    max-height: 333px;
 }
 
 .section1 .title_box {
@@ -633,6 +641,6 @@ footer img {
     }
 }
 
-.interaktiivsed-graafikud h2{
+.interaktiivsed-graafikud h2 {
     margin-top: 55px;
 }

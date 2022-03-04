@@ -13,12 +13,15 @@
 
 .section2 .graf:first-of-type .graf_img {
     max-width: 542px;
+    max-height: 628px;
     width: 100%;
+    object-fit: contain;
 }
 
 .section2 .graf:last-of-type .graf_img {
     max-width: 541px;
     width: 100%;
+    max-height: 776px;
 }
 
 .section2 .graf:last-of-type {
@@ -86,12 +89,14 @@
 
 .section4 .graf:first-of-type .graf_img {
     max-width: 440px;
+    max-height: 303px;
     width: 100%;
     margin: 0 0 10px;
 }
 
 .section4 .graf:last-of-type .graf_img {
     max-width: 541px;
+    max-height: 465px;
     width: 100%;
     margin: 0 0 -4px;
 }
@@ -117,6 +122,7 @@
 
 .section5 .graf .graf_img {
     max-width: 734px;
+    max-height: 407px;
 }
 
 .section5 .graf_img_box {

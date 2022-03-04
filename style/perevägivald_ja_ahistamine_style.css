@@ -63,6 +63,7 @@
 
 .section1 .graf:last-of-type .graf_img {
     max-width: 540px;
+    max-height: 372px;
 }
 
 .section1 .box {
@@ -165,14 +166,17 @@
 
 .section2 .graf_img {
     max-width: 542px;
+    max-height: 369px;
 }
 
 .section2 .graf_img2 {
     max-width: 501px;
+    max-height: 305px;
 }
 
 .section2 .graf_img3 {
     max-width: 540px;
+    max-height: 219px;
 }
 
 .section2 .row_box {
@@ -394,6 +398,7 @@
 .section4 .grafs_box .graf_img1 {
     max-width: 539px;
     margin: 30px 0 0;
+    max-height: 327px;
 }
 
 .section4 .grafs_box {
@@ -499,6 +504,7 @@
 
 .section5 .grafs_box .graf_img1 {
     max-width: 537px;
+    max-height: 231px;
 }
 
 .section5 .text_box {
@@ -611,10 +617,12 @@
 
 .section6 .grafs_box .graf_img1 {
     max-width: 537px;
+    max-height: 181px;
 }
 
 .section6 .grafs_box .graf_img2 {
     max-width: 433px;
+    max-height: 411px;
 }
 
 .section6 .text_box {
@@ -781,6 +789,7 @@
 
 .section7 .grafs_box .graf_img1 {
     max-width: 539px;
+    max-height: 326px;
 }
 
 .section7 .text_box {
