@@ -88,17 +88,16 @@
 }
 
 .section4 .graf:first-of-type .graf_img {
-    max-width: 440px;
-    max-height: 303px;
-    width: 100%;
-    margin: 0 0 10px;
-}
-
-.section4 .graf:last-of-type .graf_img {
     max-width: 541px;
     max-height: 465px;
     width: 100%;
-    margin: 0 0 -4px;
+}
+
+.section4 .graf .graf_img2 {
+    max-width: 541px;
+    max-height: 440px;
+    width: 100%;
+    margin: 0 0 25px;
 }
 
 
@@ -108,29 +107,31 @@
 
 
 .section4 .grafs_box {
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .section5 {
     padding: 65px 0;
 }
 
-.section5 .graf {
-    width: fit-content;
-    margin: 0 auto;
+.section5 .content {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 .section5 .graf .graf_img {
-    max-width: 734px;
-    max-height: 407px;
+    max-width: 440px;
+    max-height: 303px;
+    margin: 0 0 10px;
 }
 
-.section5 .graf_img_box {
-    justify-content: center;
-}
-
-.section5 .tootlip_box {
-    right: -203px;
+.section5 .graf_title {
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 50%;
 }
 
 @media all and (max-width:1200px) {
