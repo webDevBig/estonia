@@ -5,6 +5,10 @@
     font-weight: 400;
 }
 
+.section1 .grafs_box {
+    align-items: flex-start;
+}
+
 .section1 .text_title span {
     font-weight: bold;
 }
@@ -43,6 +47,11 @@
     display: flex;
     align-items: center;
     width: 48%;
+    margin: -30px 0 0;
+}
+.section1 .title_box
+{
+    margin: 0;
 }
 
 .section1 .box p {
@@ -295,6 +304,10 @@
 
     .section4 .graf {
         margin: 50px 0 0;
+    }
+    .section1 .box
+    {
+        margin: 0;
     }
 }
 
