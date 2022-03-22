@@ -1,0 +1,626 @@
+.section1 .icon1 {
+    max-width: 123px;
+    margin: 0 20px 0 0;
+}
+
+.section1 .icon2 {
+    max-width: 147px;
+    margin: 0 0 0 8px;
+}
+
+.section1 .row_box {
+    align-items: center;
+}
+
+.section1 .text_title {
+    color: #6667AB;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+}
+
+.section1 .number {
+    font-size: 79px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #6667AB;
+}
+
+.section1 .border_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #6667AB;
+    border-radius: 13px;
+    padding: 0 20px;
+    color: #6667AB;
+    font-size: 43px;
+    line-height: 55px;
+    font-weight: bold;
+    margin: 0 14px 0 23px;
+}
+
+.section1 .grafs_box .text {
+    padding: 0;
+}
+
+.section1 .graf:last-of-type .graf_img {
+    width: 100%;
+    max-width: 539px;
+    object-fit: contain;
+    max-height: 316px;
+}
+
+.section1 .graf .row_box {
+    margin: 0 0 55px;
+}
+
+.section1 .graf .row_box:last-of-type {
+    margin: 0;
+}
+
+.section1 .box {
+    display: flex;
+    align-items: center;
+    margin: 0 0 14px;
+}
+
+.section1 .box:last-of-type {
+    margin: 0;
+}
+
+.section1 .footer_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 43px auto 0;
+    color: #6667AB;
+}
+
+.section1 .title span {
+    font-weight: 400;
+}
+
+.section1 .num {
+    font-size: 95px;
+    line-height: 90px;
+    margin: 0 5px 0px 29px;
+    font-weight: bold;
+}
+
+.section2 {
+    padding: 60px 0 65px;
+}
+
+.section2,
+.section2 .title {
+    color: white;
+}
+
+.section2 .title {
+    margin: 0 0 43px;
+}
+
+.section2 .row_box {
+    position: relative;
+}
+
+.section2 .text {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 600;
+}
+
+.section2 .text span {
+    font-weight: 400;
+}
+
+.section2 .row_box:first-of-type {
+    margin: 0 0 20px;
+}
+
+
+.section2 .row_box {
+    width: 100%;
+    /*    justify-content: space-between;*/
+    align-items: flex-start;
+}
+
+.section2 .row_box .clm_box {
+    width: 49%;
+    align-items: flex-start;
+}
+
+.section2 .row_box .clm_box:first-of-type {
+    margin: 0 20px 0 0;
+}
+
+.section2 .list {
+    margin: 5px 0 70px;
+}
+
+.section2 .icon1 {
+    max-width: 167px;
+    margin: 0 24px 0 0;
+}
+
+.section2 .icon2 {
+    max-width: 147px;
+    margin: 10px 0 0 10px;
+}
+
+.section2 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section2 .number {
+    font-size: 79px;
+    line-height: 80px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    margin: 7px 0 0;
+}
+
+.section2 .icon3 {
+    width: 100%;
+    max-width: 527px;
+    margin: 58px 0 26px;
+}
+
+.section2 .icon4 {
+    max-width: 112px;
+    margin: 0 15px 0 0;
+}
+
+.section2 .icon5 {
+    max-width: 147px;
+    margin: 0 0 0 10px;
+}
+
+.section2 .row {
+    margin: 0 0 65px 43px;
+    align-items: center;
+}
+
+.section2 .graf_img {
+    max-width: 539px;
+}
+
+.section2 .title_text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section2 .list_one_line .note {
+    display: block;
+    padding: 0 0 0 50px;
+    position: relative;
+    margin: 0 0 -41.5px;
+}
+
+.section2 .list_one_line span {
+    padding: 0 10px 0 0;
+}
+
+.section2 .list_one_line .note::before {
+    left: 0;
+    top: 20px;
+}
+
+.section3 {
+    padding: 69px 0;
+}
+
+.section3 .content {
+    display: flex;
+
+}
+
+.section3 .graf_img {
+    max-width: 541px;
+}
+
+.section3 .graf_icon {
+    max-width: 208px;
+    margin: 0 19px 0 0;
+}
+
+.section3 .row_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0 0;
+}
+
+.section3 .text {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.section3 .text span {
+    font-weight: bold;
+}
+
+.section3 .list {
+    margin: 5px 0 0;
+}
+
+.section3 .clm_box {
+    width: 50%;
+    align-items: flex-start;
+}
+
+.section3 .graf_note {
+    font-size: 14px;
+}
+
+.section3 .graf_note span {
+    font-weight: 400;
+}
+
+.section3 .graf {
+    width: 100%;
+}
+
+.section3 .title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 41px;
+    color: #6667AB;
+}
+
+.section3 .icon2 {
+    max-width: 147px;
+    margin: 0 0 0 40px;
+}
+
+.section3 .icon3 {
+    max-width: 147px;
+    margin: 0 0 0 20px;
+}
+
+.section3 .icon4 {
+    max-width: 164px;
+    margin: 0 20px 0 0;
+}
+
+
+.section3 .row_box {
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 12px;
+}
+
+.section3 .row_box:first-of-type {
+    margin: 0 0 56px 10px;
+}
+
+.section3 .row {
+    margin: 60px 0 40px;
+}
+
+.section3 .text {
+    margin: 0 0 21px;
+}
+
+.section3 .text span {
+    font-weight: bold;
+}
+
+.section3 .note {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 0 0 22px;
+}
+
+.section3 .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section4 {
+    padding: 65px 0;
+    color: white;
+    margin: 0 0 38px;
+}
+
+.section4 .title {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 16px;
+}
+
+.section4 .note,
+.section4 a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: white;
+}
+
+.section4 a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section4 .clm_item_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section4 .clm_box:last-of-type .clm_item_text:last-of-type {
+    margin: 84px 0 0;
+}
+
+.section4 .text {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: bold;
+}
+
+.section4 .text span {
+    font-weight: 400;
+}
+
+.section4 .box {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 15px;
+    position: relative;
+}
+
+.section4 .number {
+    font-size: 78px;
+    line-height: 80px;
+    font-weight: bold;
+    margin: 0 15px 0 0;
+}
+
+.section4 .icon1 {
+    max-width: 103px;
+    margin: 0 0 0 20px;
+}
+
+.section4 .icon2 {
+    max-width: 58px;
+    margin: 0 0 6px;
+}
+
+.section4 .icon3 {
+    max-width: 103px;
+    position: absolute;
+    right: -21px;
+    top: 65%;
+}
+
+.section4 .icon4 {
+    max-width: 103px;
+    position: relative;
+    top: 16px;
+    margin: 0 0 0 15px;
+}
+
+.section4 .clm_box {
+    width: 50%;
+}
+
+.section4 .row_box {
+    align-items: center;
+}
+
+@media all and (max-width:1024px) {
+
+    .section1 .grafs_box,
+    .section2 .row_box,
+    .section3 .content,
+    .section4 .row_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1 .graf:last-of-type {
+        margin: 30px 0 0;
+    }
+
+    .section2 .row_box .clm_box:first-of-type {
+        margin: 0 0 50px;
+    }
+
+    .section2 .row_box .clm_box {
+        width: 100%;
+        align-items: center;
+    }
+
+    .section2 .row {
+        flex-direction: row;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .section3 .clm_box,
+    .section4 .clm_box {
+        width: 100%;
+        align-items: center;
+    }
+
+    .section3 .graf {
+        align-items: center;
+        margin: 30px 0 0;
+    }
+
+    .section3 .graf_img_box {
+        justify-content: center;
+    }
+
+    .section3 .graf_note {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .section4 .clm_item_text {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .row_box .clm_box:first-of-type {
+        margin: 50px 0 70px;
+    }
+
+}
+
+@media all and (max-width:600px) {
+    .section1 .graf .row_box {
+        flex-direction: column;
+    }
+
+    .section1 .icon1,
+    .section2 .icon4,
+    .section3 .icon4,
+    .section3 .graf_icon {
+        margin: 0 0 30px;
+    }
+
+    .section1 .icon2,
+    .section2 .icon5,
+    .section3 .icon2,
+    .section3 .icon3,
+    .section4 .icon1 {
+        margin: 30px 0 0;
+    }
+
+    .section1 .clm_box {
+        margin: 30px 0;
+    }
+
+    .section1 .footer_box {
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .section2 .graf_img,
+    .section2 .icon3,
+    .section3 .graf_img {
+        max-width: 100%;
+    }
+
+    .section2 .row {
+        flex-direction: column;
+    }
+
+    .list .note span {
+        font-size: 20px;
+        padding: 0 10px 0 25px;
+    }
+
+    .list .note {
+        font-size: 14px;
+    }
+
+    .list .note::before {
+        width: 15px;
+    }
+
+    .section2 .list_one_line .note {
+        padding: 0 0 0 25px;
+    }
+
+    .section2 .list_one_line span {
+        padding: 0 10px 0 0;
+    }
+
+    .section3 .row_box,
+    .section3 .row_item,
+    .section4 .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3 .note br {
+        display: none;
+    }
+
+    .section2 .tootlip_box {
+        top: -50px;
+    }
+
+}
+
+@media all and (max-width:375px) {
+    .list .note span {
+        font-size: 14px;
+        padding: 0 10px 0 13px;
+    }
+
+    .list .note {
+        font-size: 12px;
+    }
+
+    .list .note::before {
+        width: 7px;
+    }
+
+    .section2 .list_one_line .note {
+        padding: 0 0 0 13px;
+        margin: 0 0 -36.5px;
+    }
+
+    .section2 .list_one_line span {
+        padding: 0 10px 0 0;
+    }
+
+    .section1 .border_box {
+        font-size: 30px;
+        line-height: 46px;
+        padding: 0 15px;
+    }
+
+    .section2 .title,
+    .section4 .title {
+        font-size: 32px;
+    }
+
+    .section2 .number {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 .box {
+        align-items: center;
+    }
+
+    .section2 .icon2 {
+        margin: 30px 0 0;
+    }
+
+    .section2 .text span br {
+        display: none;
+    }
+
+    .section4 a {
+        word-break: break-all;
+    }
+
+    .section4 .text {
+        text-align: center;
+    }
+
+    .section4 .icon3 {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin: 30px 0 0;
+    }
+}
