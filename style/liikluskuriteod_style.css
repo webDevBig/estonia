@@ -138,6 +138,10 @@
 .section2 .list {
     margin: 5px 0 70px;
 }
+.section2 .row_box .clm_box:last-of-type .list
+{
+     margin: 5px 0 110px;
+}
 
 .section2 .icon1 {
     max-width: 167px;
