@@ -40,7 +40,7 @@ body {
 .tootlip_box .tooltip_icon {
     width: 27px;
     height: 27px;
-    background-image: url(../img/tooltip_icon.png);
+    background-image: url(../img/tooltip_icon.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -159,14 +159,15 @@ header .menu_list {
 }
 
 header .menu_list:nth-of-type(2) {
-    width: 240px;
+    width: 295px;
 }
 
 header .menu_list:nth-of-type(1) {
     width: 290px;
 }
+
 header .menu_list:nth-of-type(3) {
-    width: 240px;
+    width: 210px;
 }
 
 /*
@@ -459,6 +460,22 @@ footer img {
 
     .section1 .content_footer img {
         max-width: 120px;
+    }
+
+    header .menu_list:nth-of-type(1) {
+        width: 230px;
+    }
+
+    header .menu_list {
+        margin: 0 17px 0 0;
+    }
+
+    header .menu_list:nth-of-type(3) {
+        width: 168px;
+    }
+
+    header .menu_list:nth-of-type(2) {
+        width: 280px;
     }
 }
 
